@@ -12,7 +12,11 @@ export const metadata = {
     "The premier blockchain conference for innovators and disruptors",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en" className="dark scroll-smooth">
       <body className={inter.className}>
